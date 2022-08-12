@@ -7,6 +7,7 @@
     <list default="true" id="c40c89ce-a5e0-49dc-a230-2a2ad09cda00" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/DataInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/DataInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
