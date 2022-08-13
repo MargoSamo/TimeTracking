@@ -12,44 +12,21 @@ public class Test {
 
     public static void main(String[] args) throws ParseException {
 
-        Date date = new SimpleDateFormat("dd.MM.yyyy").parse("12.12.2022");
-        Date date2 = new SimpleDateFormat("dd.MM.yyyy").parse("13.12.2022");
-        Date date3 = new SimpleDateFormat("dd.MM.yyyy").parse("14.12.2022");
+        HashMap<Employee, String> employeeToTextMap = new HashMap<>();
 
-        HashMap<String, List<Date>> nameToDatesMap = new HashMap<>();
+        Employee employee = new Employee("Ivan", "Ivanov");
+        var employeeSame = employee;
+        employeeToTextMap.put(employee, "Hello");
 
-        var name = "Vasy";
-        var existedList = nameToDatesMap.get(name);
-        if (existedList != null) {
-            existedList.add(date);
-        } else {
-            var list = new ArrayList<Date>();
-            list.add(date);
-            nameToDatesMap.put(name, list);
-        }
-
-         name = "Vasy";
-         existedList = nameToDatesMap.get(name);
-        if (existedList != null) {
-            existedList.add(date2);
-        } else {
-            var list = new ArrayList<Date>();
-            list.add(date2);
-            nameToDatesMap.put(name, list);
-        }
-
-         name = "Vasy";
-         existedList = nameToDatesMap.get(name);
-        if (existedList != null) {
-            existedList.add(date3);
-        } else {
-            var list = new ArrayList<Date>();
-            list.add(date3);
-            nameToDatesMap.put(name, list);
-        }
+        Employee employeeToSearch = new Employee("Ivan", "Ivanov");
+        String text = employeeToTextMap.get(employeeToSearch);
 
 
-        System.out.println(nameToDatesMap);
+        System.out.println(employee.equals(employeeToSearch));
+        System.out.println(employee.equals(employeeSame));
+
+        System.out.println(text);
 
     }
+
 }
