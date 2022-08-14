@@ -21,10 +21,6 @@ public class Test {
         Employee employeeToSearch = new Employee("Ivan", "Ivanov");
         String text = employeeToTextMap.get(employeeToSearch);
 
-
-        System.out.println(employee.equals(employeeToSearch));
-        System.out.println(employee.equals(employeeSame));
-
         System.out.println(text);
 
     }

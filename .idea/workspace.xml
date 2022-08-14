@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c40c89ce-a5e0-49dc-a230-2a2ad09cda00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/DataInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/DataInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/timetracking/datainput/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/margo/Projects/JavaRushTasks&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/margo/Projects/JavaRushTasks",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
+}]]></component>
+  <component name="RunManager" selected="Application.DataInput">
     <configuration name="DataInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mariia.timetracking.datainput.DataInput" />
       <module name="TimeTracking.main" />

@@ -12,13 +12,17 @@ public class DataInput {
 
         Scanner console = new Scanner(System.in);
 
-        HashMap<String, List<Date>> nameToDatesMap = new HashMap<>();
+        HashMap<Employee, List<Date>> employeeToDatesMap = new HashMap<>();
 
-        System.out.println("Enter name");
+        System.out.println("Enter firstName");
 
         while(console.hasNext()) {
 
-        String name = console.nextLine();
+        String firstName = console.nextLine();
+        System.out.println("Enter lastName");
+        String lastName = console.nextLine();
+
+        Employee employee = new Employee(firstName, lastName);
 
         System.out.println("Enter date");
 
@@ -26,11 +30,11 @@ public class DataInput {
 
             try {
                 Date newDate = new SimpleDateFormat("dd.MM.yyyy").parse(textFromConsole);
-                var existedList = nameToDatesMap.get(name);
+                var existedList = employeeToDatesMap.get(employee);
                 if (existedList != null) {
                     existedList.add(newDate);
 
-                    System.out.println("Name: " + name);
+                    System.out.println("Name: " + employee);
                     for (Date date : existedList) {
                         System.out.println(date);
                     }
@@ -38,9 +42,9 @@ public class DataInput {
                 } else {
                     var list = new ArrayList<Date>();
                     list.add(newDate);
-                    nameToDatesMap.put(name, list);
+                    employeeToDatesMap.put(employee, list);
 
-                    System.out.println("Name: " + name);
+                    System.out.println("Name: " + employee);
                     for (Date date : list) {
                         System.out.println(date);
                 }
@@ -51,7 +55,7 @@ public class DataInput {
                 System.out.println("Вы ввели неверный формат даты");
             }
 
-            System.out.println("Enter name");
+            System.out.println("Enter firstName");
 
         }
 

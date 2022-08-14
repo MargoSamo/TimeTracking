@@ -10,6 +10,7 @@ public final class Employee {
         this.lastName = lastName;
         this.firstName = firstName;
     }
+
     @Override
     public int hashCode() {
         return firstName.hashCode() + lastName.hashCode();
@@ -28,5 +29,11 @@ public final class Employee {
         return false;
 
     }
+
+     @Override
+    public String toString() {
+        return firstName + " " + lastName;
+    }
+
 
 }
